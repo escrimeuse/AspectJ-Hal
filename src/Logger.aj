@@ -15,7 +15,7 @@ public aspect Logger {
 			if (thisJoinPoint.getKind().equals("method-call")){
 				fileoutput.write(System.currentTimeMillis()%1000 + "");
 				fileoutput.write(" : ");
-				fileoutput.write("CREW");
+				fileoutput.write("Crew");
 				fileoutput.write(" : ");
 				fileoutput.write(computer + "");
 				fileoutput.write(" : ");
